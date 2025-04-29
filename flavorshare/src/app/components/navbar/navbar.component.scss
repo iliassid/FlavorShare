@@ -1,0 +1,24 @@
+.logo{
+    width: 60px;
+    margin-left: 10px;
+}
+.comp{
+    background-color: rgb(229, 177, 65);
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px;
+    padding-left: 5px;
+}
+.thenav{
+    background: linear-gradient(to right ,rgb(37, 202, 163), rgb(181, 129, 18));
+    box-shadow: 0px 10px 20px;
+}
+div{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
