@@ -1,0 +1,94 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.theform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: 70%;
+    align-items: center;
+}
+.theinput{
+    width: 100%;
+    border-radius: 15px;
+    border: 0px;
+    height: 50px;
+}
+.trendy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(87, 71, 58);
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    box-shadow: 10px 10px 20px rgb(68, 68, 68);
+    
+}
+.cardimg{
+    border-radius: 20px;
+    width: 250px;
+}
+.cardbtn{
+    width: 150px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(229, 177, 65);
+    box-shadow: 10px 10px 10px;
+    transition: 0.3s;
+    margin: 5px;
+}
+.cardbtn:hover{
+    background-color: rgb(168, 139, 76);
+    box-shadow: 10px 10px 10px black;
+    color: aliceblue;
+}
+.formbtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: rgb(185, 67, 27);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664);
+    margin: 20px;
+    color: antiquewhite;
+    transition: 0.3s;
+}
+.formbtn:hover{
+    background-color: rgb(120, 41, 14);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(229, 177, 65);
+    box-shadow: 10px 10px 10px;
+    margin: 30px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    border: 0px;
+    border-radius: 50px;
+    background-color: rgb(229, 177, 65);
+    box-shadow: 10px 10px 10px;
+    margin: 30px;
+}
