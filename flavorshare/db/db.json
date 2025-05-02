@@ -1,0 +1,13 @@
+{
+    "recipe": [
+    {
+    "id": 0,
+    "title": "pizza",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
+    "description": "Pizza is a popular Italian dish made of a round, flat base of dough topped with tomato sauce, cheese, and various ingredients such as vegetables, meats, or herbs, then baked in an oven. It is known for its delicious flavors, crispy or soft crust, and wide variety of styles and toppings to suit different tastes.",
+    "ingredients": "All-purpose flour-Warm water-Yeast-Salt-Olive oil-Sugar (optional, to activate yeast)",
+    "prepareit": "1. Make the Dough: In a bowl, mix:-2 cups flour-1 tsp salt-1 tsp sugar-1 tsp instant yeast-Add ¾ cup warm water and 1 tbsp olive oil.Mix until a dough forms. Knead for 8–10 minutes until smooth.Cover and let it rise in a warm place for 1 hour (it should double in size).2. Make the Sauce:In a pan, heat 1 tbsp olive oil.Add 1 minced garlic clove.Add 1 cup crushed tomatoes, a pinch of salt, and ½ tsp dried oregano or basil.Simmer for 10 minutes, then let it cool."
+    }
+   
+    ]
+    }
