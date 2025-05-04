@@ -15,7 +15,7 @@ export class RecipeService {
     return this.http.get<Recipe[]>(this.baseUrl);
   }
 
-  getOne(id: number): Observable<Recipe> {
+  getOne(id: string): Observable<Recipe> {  // Change id type to string
     return this.http.get<Recipe>(`${this.baseUrl}/${id}`);
   }
 
@@ -27,7 +27,7 @@ export class RecipeService {
     return this.http.put<Recipe>(`${this.baseUrl}/${recipe.id}`, recipe);
   }
 
-  delete(id: number): Observable<void> {
+  delete(id: string): Observable<void> {  // Change id type to string
     return this.http.delete<void>(`${this.baseUrl}/${id}`);
   }
 }

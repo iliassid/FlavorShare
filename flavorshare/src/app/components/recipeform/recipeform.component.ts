@@ -66,7 +66,7 @@ export class RecipeformComponent implements OnInit {
     this.prepareit = recipe.prepareit;
   }
 
-  deleteRecipe(id: number) {
+  deleteRecipe(id: string) {  // Change id type to string
     if (confirm('Are you sure you want to delete this recipe?')) {
       this.recipeService.delete(id).subscribe(() => this.loadRecipes());
     }
@@ -86,6 +86,7 @@ export class RecipeformComponent implements OnInit {
   }
 
   viewDetails(recipe: Recipe) {
+    console.log('Navigating to details with ID:', recipe.id);
     this.router.navigate(['/details', recipe.id]);
   }
 }

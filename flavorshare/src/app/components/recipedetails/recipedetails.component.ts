@@ -21,9 +21,9 @@ export class RecipedetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    const id = Number(this.route.snapshot.paramMap.get('id'));
-  
-    if (!id || isNaN(id)) {
+    const id = this.route.snapshot.paramMap.get('id');  // Keep the ID as a string
+    
+    if (!id) {
       console.error('Invalid or missing ID in route');
       return;
     }
@@ -37,4 +37,5 @@ export class RecipedetailsComponent implements OnInit {
       }
     });
   }
+  
 }

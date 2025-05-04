@@ -19,7 +19,8 @@
         <h2>{{ recipe.title }}</h2>
         <button class="cardbtn" (click)="viewDetails(recipe)">More Details</button>
         <button class="cardbtn" (click)="editRecipe(recipe)">Edit</button>
-        <button class="cardbtn" (click)="deleteRecipe(recipe.id)">Delete</button>
+        <button class="cardbtn" (click)="deleteRecipe(recipe.id.toString())">Delete</button>
+
       </div>
     </div>
   </div>
